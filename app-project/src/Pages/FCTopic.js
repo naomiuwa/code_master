@@ -1,6 +1,5 @@
 import React from "react"
 import "./TopicPage.css"
-import study from "./studying2.png"
 
 export default function FCTopic() {
 

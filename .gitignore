@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/app-project/node_modules
+/app-project/build
 /.pnp
 .pnp.js
 

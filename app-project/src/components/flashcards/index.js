@@ -1,24 +1,13 @@
 import React from "react";
-import Carousel from "react-material-ui-carousel";
-import { Paper } from "@mui/material";
 import "./index.css";
-// import Carousel from 'react-elastic-carousel'
-// import Item from "./item"
-
-// export default function CardCarousel() {
-
-/* return <Carousel itemsToShow={3}>
-  <Item text="test"/>
-  <Item text="test 2"/>
-</Carousel>} */
 
 export default function CardCarousel(props) {
   return (
     <div className="main">
-    <h2 className = "title">Flashcards: Random</h2>
+      <h2 className="title">Flashcards: Random</h2>
       <ul className="scroll-container" data-layoutmethod="grid">
         <li className="scroll-item">
-          <h3 className = "flashtitle">JSX</h3>
+          <h3 className="flashtitle">JSX</h3>
           <h4>
             JSX stands for JavaScript XML, and it is a syntax extension of
             JavaScript that allows developers to write HTML-like code in their
@@ -27,7 +16,7 @@ export default function CardCarousel(props) {
           </h4>
         </li>
         <li className="scroll-item">
-          <h3 className = "flashtitle">States</h3>
+          <h3 className="flashtitle">States</h3>
           <h4>
             State is a JavaScript object that stores data and determines how a
             component renders and behaves. When the state of a component
@@ -37,7 +26,7 @@ export default function CardCarousel(props) {
           </h4>
         </li>
         <li className="scroll-item">
-          <h3 className = "flashtitle">Array Elements</h3>
+          <h3 className="flashtitle">Array Elements</h3>
           <h4>
             Array elements are object properties in the same way that toString
             is a property (to be specific, however, toString() is a method).
@@ -46,7 +35,7 @@ export default function CardCarousel(props) {
           </h4>
         </li>
         <li className="scroll-item">
-          <h3 className = "flashtitle">GIT Branches</h3>
+          <h3 className="flashtitle">GIT Branches</h3>
           <h4>
             You can use branches to safely experiment with changes to your
             project. Branches isolate your development work from other branches
@@ -56,7 +45,7 @@ export default function CardCarousel(props) {
           </h4>
         </li>
         <li className="scroll-item">
-          <h3 className = "flashtitle">Splitting a number</h3>
+          <h3 className="flashtitle">Splitting a number</h3>
           <h4>
             To split a number into an array in JavaScript, call the Array.from()
             method, passing the number converted to a string as the first
@@ -65,7 +54,7 @@ export default function CardCarousel(props) {
           </h4>
         </li>
         <li className="scroll-item">
-          <h3 className = "flashtitle">Changing cases</h3>
+          <h3 className="flashtitle">Changing cases</h3>
           <h4>
             You can type stringName.toLowerCase() or stringName.toUpperCase() to
             change the case of a string
